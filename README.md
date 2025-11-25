@@ -55,30 +55,24 @@ All naming conventions will be strictly in **English** to maintain industry stan
 
 ---
 
-## 📜 Commit Convention
+### Commit Conventions
 
-We will use the **Conventional Commits** specification combined with **Emojis** for a clear and professional Git history.
+#### Nomenclatura de commits
+**Tag/Tipo de tarea (emoji/🎉): + Tipo de tag (palabra corta) + descripción**
 
-### Commit Format
+*Ejemplo:*
+```
+🎉 init: created repo basis
+```
 
-`<type>(<scope>): <emoji> <subject>`
-
-### Types and Emojis
-
-| Type | Emoji | Description |
-| :--- | :--- | :--- |
-| **feat** | ✨ | A new feature, enhancement, or major functionality. |
-| **fix** | 🐛 | A bug fix. |
-| **docs** | 📚 | Changes to documentation (README, comments, etc.). |
-| **style** | 💅 | Changes that do not affect the meaning of the code (formatting, CSS). |
-| **refactor** | 🔨 | Code changes that neither fix a bug nor add a feature (cleanup, better structure). |
-| **chore** | ⚙️ | Maintenance tasks, build processes, or general tooling. |
-| **test** | 🧪 | Adding missing tests or correcting existing tests. |
-| **perf** | ⚡️ | A code change that improves performance. |
-
-### Examples:
-
-* `feat: ✨ Implement basic beat catalogue display from database`
-* `fix: 🐛 Correct typo in DB connection host name`
-* `chore: ⚙️ Update .gitignore file for new secure folder`
-* `style: 💅 Apply basic styling to beat cards in catalogue.php`
+#### Conventional Commits
+🔹 **Tipos más comunes**
+- `feat`: → Nueva funcionalidad (feature) para el usuario.
+- `fix`: → Corrección de bug.
+- `docs`: → Cambios solo en documentación.
+- `style`: → Cambios de formato (espacios, comas, formateo, etc.) sin afectar el código.
+- `refactor`: → Cambio de código que no corrige bug ni añade feature.
+- `perf`: → Mejora de rendimiento.
+- `test`: → Añadir o corregir tests.
+- `chore`: → Tareas varias (build, configs, scripts…).
+```

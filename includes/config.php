@@ -1,7 +1,7 @@
 <?php
 // Credentials database
 define('DB_HOST', 'localhost'); 
-define('DB_NAME', 'tienda_beats'); 
+define('DB_NAME', 'web_beats'); 
 define('DB_USER', 'tienda_beats_app_yovny');
 define('DB_PASS', 'Gragraboom123!');
 

@@ -1,4 +1,5 @@
 <?php
+include 'includes/session_setup.php';
 // 1. Load the database connection
 include 'includes/config.php';
 
@@ -67,6 +68,7 @@ try {
 
     <footer>
         </footer>
-
+    
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -24,11 +24,7 @@ try {
 </head>
 <body>
 
-    <header>
-        <h1>ProdyoVny Beat Store</h1>
-        <nav></nav>
-    </header>
-
+<?php include 'includes/header.php'; ?>
     <main class="catalogue-container">
 
         <h2>Available Beats</h2>

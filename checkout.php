@@ -53,14 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $total_price > 0) {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Checkout | Secure Payment</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+<?php include 'includes/header.php'; ?>
     
     <main class="checkout-container">
         <h2>💳 Secure Checkout</h2>

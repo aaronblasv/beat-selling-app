@@ -4,23 +4,7 @@ include 'includes/config.php';
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prodyoVny | Official Website</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <header class="hero-section">
-        <h1>Unleash Your Sound.</h1>
-        <p>Exclusive, high-quality beats for your next project. Crafted by Aaron Blas.</p>
-        
-        <a href="catalogo.php" class="cta-button">
-            Listen & Purchase Beats 🎧
-        </a>
-    </header>
+<?php include 'includes/header.php'; ?>
 
     <main>
         <section id="featured-beats">

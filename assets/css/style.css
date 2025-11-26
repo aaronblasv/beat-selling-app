@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.playButton{
+    & img{width: 50px;}
+    border: none;
+
+}
+
+.beat-player{
+    display: none;
+}
+.beat-card{
+    border: 1px solid black;
+}

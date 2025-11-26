@@ -2,11 +2,13 @@
     box-sizing: border-box;
 }
 .playButton{
-    & img{width: 50px;}
+    
     border: none;
+    background-color: transparent;
+    & img{width: 50px;}
 
 }
-
+body{background:linear-gradient(to bottom right,  rgb(154, 118, 165),rgb(53, 52, 52));}
 .beat-player{
     display: none;
 }
